@@ -27,7 +27,7 @@ class BggTop100::Game
 
   def self.scrape_bgg
     doc = Nokogiri::HTML(open("https://boardgamegeek.com/browse/boardgame"))
-    #binding.pry
+    binding.pry
   end
 
 end
