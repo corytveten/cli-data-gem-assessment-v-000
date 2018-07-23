@@ -10,7 +10,7 @@ class BggTop100::CLI
     puts "Board Game Geek Top 100:"
     @games = BggTop100::Game.today
     @games.each.with_index(1) do |game, i|
-      puts "#{i}. #{game.name} (#{game.year}) - #{game.rating}"
+      puts "#{i}. #{game.name}" #(#{game.year}) - #{game.rating}"
     end
   end
 
