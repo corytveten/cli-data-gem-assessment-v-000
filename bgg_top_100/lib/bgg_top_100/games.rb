@@ -9,7 +9,7 @@ class BggTop100::Game
     games = []
 
     games <<self.scrape_bgg
-    
+
 #    game_1 = self.new
 #    game_1.name = "Gloomhaven"
 #    game_1.year = "2017"
