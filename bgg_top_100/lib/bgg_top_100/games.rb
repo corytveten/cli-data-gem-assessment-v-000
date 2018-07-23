@@ -1,5 +1,6 @@
 class BggTop100::Game
   attr_accessor :name, :year, :rating, :url
+  #also: :designer, :player_count, :ages
 
   def self.today
     self.scrape_games
